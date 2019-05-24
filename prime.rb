@@ -5,6 +5,8 @@ def prime?(x)
   elsif x > 2 
   [2..].each do |x| 
     x % x == 0 && x % 1 == 0 && 
+  end
+  return ""
   
   
 else

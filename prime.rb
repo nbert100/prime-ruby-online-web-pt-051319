@@ -1,5 +1,5 @@
 def prime?(x)
-  x != num
+ num != x
   if x == 2
     "true"
   elsif x > 2 

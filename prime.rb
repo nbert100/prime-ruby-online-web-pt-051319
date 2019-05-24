@@ -4,9 +4,9 @@ def prime?(x)
     "true"
   elsif x > 2 
   [2..].each do |x| 
-    x % x == 0 && x % 1 == 0 && 
+    x % x == 0 && x % 1 == 0 && x % num != 0
   end
-  return ""
+  return "true"
   
   
 else
